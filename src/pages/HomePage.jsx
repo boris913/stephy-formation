@@ -1,10 +1,13 @@
 import { motion } from 'framer-motion';
-import { Navbar, Footer } from '@components/navigation';
-import { HeroSection, Container, SectionWrapper } from '@components/layout';
-import { CourseCard } from '@components/courses';
-import { Button } from '@components/ui';
-import { featuredCourses } from '@data/courses';
-import { learningObjectives } from '@data/objectives';
+import  Navbar from '../components/navigation/Navbar';
+import Footer from '../components/navigation/Footer';
+import HeroSection from '../components/layout/HeroSection';
+import Container from '../components/layout/Container';
+import SectionWrapper from '../components/layout/SectionWrapper';
+import CourseCard from '../components/courses/CourseCard';
+import  Button from '../components/ui/Button';
+import {featuredCourses} from '../data/courses';
+import { learningObjectives } from '../data/objectives';
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">

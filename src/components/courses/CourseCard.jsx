@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import Button from './ui/Button';
-import RatingStars from './data-display/RatingStars';
+import Button from './../ui/Button';
+import RatingStars from './../data-display/RatingStars';
 
 const CourseCard = ({ 
   title, 

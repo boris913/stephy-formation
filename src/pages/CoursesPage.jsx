@@ -1,10 +1,16 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Navbar, Footer } from '@components/navigation';
-import { CourseFilters, CourseCard } from '@components/courses';
-import { Container, GridLayout, Pagination } from '@components/layout';
-import { SearchInput, Button } from '@components/ui';
-import { featuredCourses } from '@data/courses';
+import Navbar from '../components/navigation/Navbar';
+import Footer from '../components/navigation/Footer';
+import CourseFilters from '../components/courses/CourseFilters';
+import CourseCard  from '../components/courses/CourseCard';
+import Container from '../components/layout/Container';
+import GridLayout from '../components/layout/GridLayout';
+import Pagination from '../components/layout/Pagination';
+import SearchInput from '../components/ui/SearchInput';
+import  Button from '../components/ui/Button';
+import {featuredCourses} from '../data/courses';
+
 
 const CoursesPage = () => {
   const [categoryFilter, setCategoryFilter] = useState('');

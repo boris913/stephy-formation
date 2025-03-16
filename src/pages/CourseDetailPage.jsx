@@ -1,11 +1,14 @@
 import { Tab } from '@headlessui/react';
 import { motion } from 'framer-motion';
-// import { CheckIcon } from '@heroicons/react/solid';
-// import { Tab } from '@headlessui/react';
-import { Navbar, Footer } from '@components/navigation';
-import { Accordion, RatingStars, InstructorCard, ReviewList } from '@components/data-display';
-import { PriceDisplay, Button } from '@components/ui';
-import { fullCourse, courseStats } from '@data/courses';
+import  Navbar from '../components/navigation/Navbar';
+import  Footer  from '../components/navigation/Footer';
+import  Accordion from '../components/data-display/Accordion';
+import  RatingStars from '../components/data-display/RatingStars';
+import  InstructorCard from '../components/data-display/InstructorCard';
+import  ReviewList  from '../components/data-display/ReviewList';
+import  PriceDisplay  from '../components/data-display/PriceDisplay';
+import  Button from '../components/ui/Button';
+import { fullCourse, courseStats } from '../data/courses';
 import { CheckIcon } from '@heroicons/react/24/solid';
 
 const CourseDetailPage = () => {
